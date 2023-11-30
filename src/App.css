@@ -1,0 +1,8 @@
+.w-100{
+  width: 100%;
+}
+
+.flex-content{
+  display: flex;
+  flex-wrap: wrap;
+}

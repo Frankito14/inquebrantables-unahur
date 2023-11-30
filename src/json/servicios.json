@@ -1,0 +1,17 @@
+[
+   {
+    "dia":"Lunes",
+    "servicio": "Barberia a precio popular",
+    "descripcion": "Con un costo de $400"
+   },
+   {
+    "dia":"Miercoles",
+    "servicio": "Consultoría psicológica gratuita",
+    "descripcion": "Pedi turno al 11-2390-8174 (Teresa Muñoz)"
+   },
+   {
+    "dia":"Viernes",
+    "servicio": "Consultoria sobre sexualidad",
+    "descripcion": "De 10hrs a 14hrs"
+   }
+]

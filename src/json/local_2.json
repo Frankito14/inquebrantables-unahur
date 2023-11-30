@@ -1,0 +1,39 @@
+[
+    {
+        "nombre":"Café gratuito",
+        "nombreLogo": "cafe"
+    },
+    {
+        "nombre":"Prestamo de kits de mate",
+        "nombreLogo": "mate"
+    },
+    {
+        "nombre":"Agua caliente",
+        "nombreLogo": "agua_caliente"
+    },
+    {
+        "nombre":"Microondaas",
+        "nombreLogo": "microwave"
+    },
+    {
+        "nombre":"Cargador de celulares",
+        "nombreLogo": "cargador"
+    },
+    {
+        "nombre":"Zona Wi-Fi",
+        "nombreLogo": "wifi"
+    },
+    {
+        "nombre":"Tutorias",
+        "nombreLogo": "tutorias"
+    },
+    {
+        "nombre":"Talleres",
+        "nombreLogo": "talleres"
+    },
+    {
+        "nombre":"Apuntes",
+        "nombreLogo": "apuntes"
+    }
+]
+   
