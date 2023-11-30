@@ -8,4 +8,4 @@ Sitio web del centro de Estudiantes de la Universidad Nacional de Hurlingham
 - Información sobre el mismo
 - Acceso al banco de apuntes digitales
 
-- [Logo](./src/assets/images/logo.png) 
+![Logo](./src/assets/images/logo.png) 
