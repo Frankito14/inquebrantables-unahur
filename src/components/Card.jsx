@@ -9,7 +9,7 @@ export default function Card(props) {
                 <h5 class="mb-2 block font-sans text-lg font-bold leading-snug tracking-normal text-gray-600 antialiased">
                     {props.titulo}
                 </h5>
-                <p class="block font-sans text-gray-500 text-sm leading-relaxed text-inherit antialiased">
+                <p class="block font-sans text-gray-300 text-sm leading-relaxed text-inherit antialiased">
                     {props.descripcion}
                 </p>
             </div>

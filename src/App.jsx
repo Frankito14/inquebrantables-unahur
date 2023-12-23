@@ -4,13 +4,14 @@ import Banner from "./components/Banner";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import { BrowserRouter } from "react-router-dom";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <BrowserRouter>
             <Navigator></Navigator>
-            <Banner></Banner>
+            <Hero></Hero>
             <Main></Main>
             <Footer></Footer>
       </BrowserRouter>

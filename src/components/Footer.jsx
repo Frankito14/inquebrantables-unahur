@@ -21,12 +21,6 @@ export default function Footer() {
                     <img className="w-96 h-full mx-auto mt-3" src={FooterImage}></img>
                 </div>
             </div>
-        
-            {/* <div className="mt-2 flex flex-wrap justify-around gap-5">
-                <img className="w-24 h-full" src={FooterImage1}></img>
-                <img className="w-52 h-full" src={FooterImage2}></img>
-                <img className="w-32 h-full" src={FooterImage3}></img>
-            </div> */}
         </footer>
     )
 }
