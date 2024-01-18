@@ -1,11 +1,13 @@
 import Local from "./Local";
+import QuienesSomos from "./QuienesSomos";
 import Servicios from "./Servicios";
 
 export default function Home(){
     return(
         <>
-            <Local></Local>
+            <QuienesSomos></QuienesSomos>
             <Servicios></Servicios>
+            <Local></Local>
         </>
     )
 }

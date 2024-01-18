@@ -20,8 +20,7 @@ const galeria = [
 export default function NochesInquebrantables(){
     return(
         <section id="NochesInquebrantables" className='animate__animated animate__fadeInDown animate__fast pt-6'>
-            <h2 className="text-gray-600 font-bold text-center text-2xl mb-5 px-2">Nuestro Local</h2>
-            <p className="text-gray-500 mt-2 p-10">El descenso de River Plate a la Primera B Nacional fue un acontecimiento deportivo ocurrido el 26 de junio de 2011 en el Estadio «Monumental» Antonio Vespucio Liberti de Buenos Aires (Argentina). El equipo «millonario» perdió la categoría luego de la derrota por 1-3 (0-2 de ida y 1-1 de vuelta) en la serie por la promoción frente a Belgrano. La noticia causó conmoción en el fútbol argentino.1​</p>
+            <h2 className="text-gray-700 font-bold text-center text-2xl mb-5 px-2">Nuestro Local</h2>
             <div className='flex flex-wrap gap-2 p-5 justify-center '>
                 {
                     galeria.map((foto, index) => {

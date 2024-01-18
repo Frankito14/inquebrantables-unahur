@@ -13,6 +13,9 @@ export default {
         'unahur-green-dark': '#40711e',
         'unahur-blue': '#3aa4cc',
         'unahur-blue-dark': '#25647c',
+        'gray-title': 'rgb(55 65 81)',
+        'gray-text': 'rgb(75 85 99)',
+        'gray-subtext': 'rgb(156 163 175)'
 
 
       },

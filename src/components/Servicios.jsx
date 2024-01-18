@@ -1,5 +1,6 @@
 import Card from "./Card";
 import ServiciosJSON from "../json/servicios.json";
+import CardServicio from "./CardServicio";
 
 export default function Servicios() {
   return (
@@ -15,6 +16,7 @@ export default function Servicios() {
                 titulo={servicio.servicio}
                 descripcion={servicio.descripcion}
               ></Card>
+              
             );
           })}
       </div>
