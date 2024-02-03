@@ -1,16 +1,22 @@
+
+import LogoBarberia from '../assets/svg/servicios/barberia.svg';
+import LogoPsico from '../assets/svg/servicios/psico.svg';
+import LogoSexualidad from '../assets/svg/servicios/sexualidad.svg';
+
+const logos = {
+  1: LogoBarberia,
+  2: LogoPsico,
+  3: LogoSexualidad,
+}
+
+
 export default function CardServicio(props) {
   return (
-    <div class="bg-white w-72 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
-      <div class="p-8">
-        <h2 class="text-xl font-semibold text-gray-500 mb-4">{props.dia}</h2>
-        <p class="text-xl font-bold text-gray-500 mb-6">{props.titulo}</p>
-        <p class="text-gray-500 mb-6 h-16">{props.descripcion}</p>
-      </div>
-      <div class="p-4">
-        <button class="w-full bg-blue-500 text-white rounded-full px-4 py-2 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
-          Select Plan
-        </button>
-      </div>
+    <div class="w-full sm:w-72 text-center overflow-hidden p-5 bg-white rounded-xl shadow-md">
+      <p className='text-gray-500 text-md font-bold '>{props.dia}</p>
+      <img className="m-auto w-24 my-5"src={logos[props.id]}/>
+      <h2 className='text-unahur-green text-md font-bold'>{props.titulo}</h2>
+      <p className='text-gray-400 text-sm mt-3'>{props.descripcion}</p>
     </div>
   );
 }

@@ -33,17 +33,15 @@ const elegirIcono = (nombreIcono) =>{
 export default function Local() {
   return (
     <section id="Local" className='animate__animated animate__fadeInDown animate__fast'>
-    <h2 className="text-gray-600 font-bold text-center text-2xl pt-5 mb-5 px-2">¿Que podes encontrar en nuestro local?</h2>
-    <div className="flex justify-center flex-wrap gap-3 p-5 ">
+    <h2 className="text-gray-600 font-bold text-center text-lg pt-5 mb-5 px-2">¿Que podes encontrar en nuestro local?</h2>
+    <div className="flex flex-wrap justify-evenly w-full sm:w-3/4 m-auto gap-3 p-8">
         {LocalJSON &&
           LocalJSON.map((servicio_local, index) => {
             return(
-            <div key={index} class="relative mt-1 flex w-96 flex-col rounded-xl bg-white text-gray-600">
-                <div class="flex flex-nowrap justify-between mt-1 p-3 gap-3">
-                    <span className="font-bold text-center">{servicio_local.nombre}</span>
-                    <img className="w-6 inline" src={elegirIcono(servicio_local.nombreLogo)}></img>
-                </div>
-            </div>)
+                <div key={index} className="bg-white py-5 text-center w-full sm:w-48 rounded-xl shadow-sm">
+                    <img className="w-12 m-auto" src={elegirIcono(servicio_local.nombreLogo)}></img>
+                    <p className="font-semibold mt-3 text-center text-xs">{servicio_local.nombre}</p>
+                </div>)
           })}
     </div>
     </section>
